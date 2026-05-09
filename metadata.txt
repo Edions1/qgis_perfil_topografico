@@ -1,0 +1,9 @@
+[general]
+name=Perfil Topografico 3D
+description=Ferramenta de análise topográfica com gráfico e 3D
+version=1.0
+qgisMinimumVersion=3.0
+author=Edion
+linkdin=edion-geo-cyber
+category=Analysis
+icon=icon.png
