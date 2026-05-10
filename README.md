@@ -101,15 +101,6 @@ git clone https://github.com/Edions1/qgis_perfil_topografico.git
 - Adicionar suporte a múltiplos perfis topográficos
 
 ---
-
-## Visão de Melhorias
-
-Estruturar os gráficos topográficos de maneira mais intuitiva,
-facilitando interpretação de distância, elevação e escala altimétrica
-durante análises geoespaciais.
-
----
-
 ## Licença
 
 Este projeto está licenciado sob a GNU GPL v3.0.
