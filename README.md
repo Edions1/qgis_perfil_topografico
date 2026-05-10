@@ -27,7 +27,6 @@ Plugin para o QGIS desenvolvido em Python com PyQGIS para geração de perfis to
 <img width="100%" src="./ultima_versao.png"/>
 
 ---
-
 ## Funcionalidades
 
 - Detecção automática de arquivos DEM
@@ -35,6 +34,21 @@ Plugin para o QGIS desenvolvido em Python com PyQGIS para geração de perfis to
 - Leitura de altitude em tempo real
 - Geração de perfil topográfico
 - Integração com a interface do QGIS
+- Reconhecimento automático de modelos SRTM carregados no projeto
+- Geração de gráficos de elevação com base em dados raster `.tif/.tiff`
+
+---
+
+## Requisitos
+
+Para funcionamento correto do plugin é necessário:
+
+- Baixar um modelo digital de elevação (DEM)
+- Carregar o arquivo raster no QGIS
+- Utilizar arquivos SRTM compatíveis (`.tif` ou `.tiff`)
+
+No exemplo deste projeto foi utilizado um modelo SRTM `.tiff`
+disponibilizado pelo Centro de Ecologia da UFRGS.
 
 ---
 
@@ -44,6 +58,8 @@ Plugin para o QGIS desenvolvido em Python com PyQGIS para geração de perfis to
 - PyQGIS
 - QGIS
 - Raster DEM
+- SRTM
+- Matplotlib
 
 ---
 
@@ -55,6 +71,7 @@ Plugin para o QGIS desenvolvido em Python com PyQGIS para geração de perfis to
 ├── Grafico_1.png
 ├── Qgis_funcionamento.png
 ├── ultima_versao.png
+├──  perfil_topografico.zip (arquivo pronto para exportar e subir plugin)
 ├── __init__.py
 ├── metadata.txt
 ├── perfil_topografico.py
@@ -71,6 +88,25 @@ Plugin para o QGIS desenvolvido em Python com PyQGIS para geração de perfis to
 ```bash
 git clone https://github.com/Edions1/qgis_perfil_topografico.git
 ```
+
+---
+
+## Proposta da Versão 1.1
+
+- Melhorar estrutura visual do plotter
+- Refinar renderização dos gráficos
+- Adicionar melhor interpretação dos eixos X, Y e Z
+- Melhorar visualização das unidades de medida
+- Otimizar leitura de altitude em grandes rasters
+- Adicionar suporte a múltiplos perfis topográficos
+
+---
+
+## Visão de Melhorias
+
+Estruturar os gráficos topográficos de maneira mais intuitiva,
+facilitando interpretação de distância, elevação e escala altimétrica
+durante análises geoespaciais.
 
 ---
 
